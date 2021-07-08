@@ -1,0 +1,100 @@
+.top{
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top-content{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.top-content h3{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -1.4px;
+    padding-bottom: 2px;
+}
+.top-content h4{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -1.4px;
+    padding-bottom: 2px;
+}
+.top-content p{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.cinemas-btn{
+    width: 70%;
+}
+
+.rank{
+    display: flex;
+    width: 20%;
+}
+.rank span{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 10px;
+    
+}
+.top .movie-preview{
+    width: 100%;
+    margin-top: 0;
+}
+@media (max-width: 1200px){
+    .top{
+        padding: 60px 100px;
+    }
+    .top-content{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cinemas-btn{
+        width: 20%;
+    }
+    .rank{
+        width: 30%;
+    }
+}
+@media (max-width: 768px){
+    .top{
+        padding: 60px;
+    }
+    .cinemas-btn{
+        width: 25%;
+    }
+    .rank{
+        width: 30%;
+        position: relative;
+    }
+    .rank span {
+        position: absolute;
+        z-index: 999;
+        left: 10px;
+        top: 5px;
+    }
+}
+@media (max-width: 420px){
+    .top{
+        padding: 60px;
+    }
+    .cinemas-btn{
+        width: 50%;
+    }
+    .rank{
+        width: 100%;
+    }
+    .rank span {
+        position: absolute;
+        z-index: 999;
+        left: 20px;
+        top: 15px;
+    }
+}

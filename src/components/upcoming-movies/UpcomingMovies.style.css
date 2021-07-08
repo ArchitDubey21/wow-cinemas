@@ -1,0 +1,40 @@
+.upcoming-movies{
+    padding: 60px 120px;
+}
+.upcoming-movies h3{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -1.4px;
+    padding-bottom: 2px;
+}
+.carousel-button-group{
+    position: relative;
+}
+.left-btn-slide, .right-btn-slide{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2c2c2c;
+    border: none;
+    color: #fff;
+    position: absolute;
+    bottom: 250px;
+}
+.left-btn-slide{
+    left: -50px;
+}
+.right-btn-slide{
+    right: -40px;
+}
+@media (max-width: 1200px){
+    .upcoming-movies{
+        padding: 30px 120px 60px 120px;
+    }
+}
+@media (max-width: 768px){
+    .upcoming-movies{
+        padding: 60px;
+    }
+}

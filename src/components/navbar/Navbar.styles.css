@@ -1,0 +1,66 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: transparent;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    font-weight: 600;
+}
+.logo-container{
+    width: 150px;
+}
+.logo-container img{
+    width: 60%;
+}
+.options{
+    flex-grow: 1;
+    display: flex;
+    justify-content:center;
+}
+.option{
+    margin-right: 25px;
+    color: #fff;
+    padding-top: 10px;
+}
+.option:hover{
+    text-decoration: none;
+    color: #eee;
+}
+.location-change{
+    width: 150px !important;
+    border-radius: 4px;
+    margin: 0 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    height: 35px;
+    margin-top: 5px;
+}
+.club{
+    width: 100px;
+    border-radius: 4px;
+    border: none;
+    height: 35px;
+    margin-top: 5px;
+}
+.img-search{
+    width: 30px;
+    height: 30px;
+}
+@media (max-width: 768px){
+    .navbar {
+        background-color: #000000a3;
+    }
+    .img-search{
+        display: none;
+    }
+    .location-change, .club{
+        margin: 10px 0 0 0; 
+    }
+}

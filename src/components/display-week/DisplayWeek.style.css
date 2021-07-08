@@ -1,0 +1,39 @@
+.display-week{
+    width: 100%;
+    margin-left: 30%;
+}
+.btn-week{
+    color: rgba(194, 194, 194, 0.904) !important;
+    font-weight: 600 !important;
+    margin-top: 2px;
+}
+.btn-week:focus, .btn-week:focus-visible{
+    background-color: #c5292a !important;
+    color: #fff !important;
+    border: none !important; 
+    box-shadow: none !important;
+    border: none !important;
+}
+.filling-data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 25%;
+    padding: 10px;
+}
+.filling-data p{
+    width: 50%;
+    font-weight: 500;
+}
+.filling-data p:first-of-type{
+    color: #2cb10a;
+}
+.filling-data p:nth-of-type(2){
+    color: #ff972a;
+}
+.filling-data p:nth-of-type(3){
+    color: #ff4242;
+}
+.filling-data p:nth-of-type(4){
+    color: rgb(150, 149, 149);
+}

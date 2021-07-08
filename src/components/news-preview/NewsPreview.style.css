@@ -1,0 +1,29 @@
+.news-preview{
+    width: 30%;
+    background-color: #333;
+}
+.news-img{
+    width: 100%;
+}
+.news-img img{
+    width: 100%;
+    display: block;
+}
+.news-content{
+    padding: 20px;
+}
+.news-content p:first-of-type{
+    margin-top: 15px;
+    color: #9b9b9b;
+    font-weight: 600; 
+}
+.news-content h4{
+    margin-top: 15px;
+    font-size: 120%;
+    font-weight: 500;
+}
+.news-content p:last-of-type{
+    margin-top: 15px;
+    color: #c6c6c6;
+    font-size: 95%;
+}

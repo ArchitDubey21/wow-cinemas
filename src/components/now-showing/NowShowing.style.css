@@ -1,0 +1,74 @@
+.now-showing{
+    padding: 60px 120px;
+}
+.now-showing-top{
+    display: flex;
+    justify-content: space-between;
+}
+.now-showing h2{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -1.4px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #c5292a;
+}
+.movie-preview-collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.view-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.view-btn{
+    padding: 10px 30px !important;
+}
+.icons-arr svg{
+    margin-top: -3px;
+}
+
+@media (max-width: 1200px){
+    .movie-preview-collection .movie-preview{
+        width: 30%;
+    }
+    .movie-preview-collection .movie-preview:last-of-type{
+        display: none;
+    }
+} 
+@media (max-width: 768px){
+    .now-showing{
+        padding: 60px;
+    }
+}
+@media (max-width: 420px){
+    .now-showing{
+        padding: 30px;
+    }
+    .movie-preview-collection .movie-preview{
+        width: 49%;
+    }
+    .movie-preview-collection .movie-preview:last-of-type{
+        display: unset;
+    }
+    .movie-preview .img-showing img{
+        transition: transform 0.5s, opacity 0.5s;
+        display: block;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        width: 100%;
+    }   
+    .movie-preview:hover .img-showing img{
+        opacity: 0.5;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    img.icon{
+        width: 75% !important;
+    }
+}

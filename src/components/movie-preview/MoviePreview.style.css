@@ -1,0 +1,47 @@
+.movie-preview{
+    width: 19%;
+    margin-top: 30px;
+    position: relative;
+}
+.release{
+    width: 95%;
+} 
+.releasing{
+    font-size: 90% !important;
+    text-transform:none !important;    
+    font-weight: 600;
+}
+.release-date{
+    font-weight: 300;
+}
+.movie-preview h4{
+    font-size: 120%;
+    padding-left: 8px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.movie-preview p{
+    padding-left: 8px;
+    text-transform: uppercase;
+    font-size: 80%;
+    color: #9b9b9b;
+}
+.img-showing{
+    overflow: hidden;
+}
+
+.movie-preview .img-showing img{
+    transition: transform 0.5s, opacity 0.5s;
+    display: block;
+    -webkit-transform: scale(1.20);
+    -ms-transform: scale(1.20);
+    transform: scale(1.20);
+}
+
+.movie-preview:hover .img-showing img{
+    opacity: 0.5;
+    -webkit-transform: scale(1.30);
+    -ms-transform: scale(1.30);
+    transform: scale(1.30);
+}
+

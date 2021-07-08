@@ -1,0 +1,135 @@
+const UPCOMINGMOVIE_DATA = [
+    {
+      id: 1,
+      title: 'Black Widow',
+      release: '30 November 2020',
+      genre: 'action',
+      trailer: 'ybji16u608U',
+      director: 'Anthony and Joe Russo',
+      writers: 'Christopher Markus and Stephen McFeely',
+      starring: 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin',
+      details: '3h 1min  |  Action, Adventure, Sci-Fi  |  3D  |  English, Hindi',
+      imageUrl: 'BW.jpg',
+      linkUrl: 'blackwidow'
+    },
+    {
+      id: 2,
+      title: 'No time to die',
+      release: '30 November 2020',
+      genre: 'adventure',
+      trailer: 'BIhNsAtPbPI',
+      director: 'Anthony and Joe Russo',
+      writers: 'Christopher Markus and Stephen McFeely',
+      starring: 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin',
+      details: '3h 1min  |  Action, Adventure, Sci-Fi  |  3D  |  English, Hindi',
+      imageUrl: 'NTTD.jpg',
+      linkUrl: 'NTDD'
+    },
+    {
+      id: 3,
+      title: 'Raya and the Last Dragon',
+      release: '30 November 2020',
+      genre: 'animation',
+      trailer: '1VIZ89FEjYI',
+      director: 'Anthony and Joe Russo',
+      writers: 'Christopher Markus and Stephen McFeely',
+      starring: 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin',
+      details: '3h 1min  |  Action, Adventure, Sci-Fi  |  3D  |  English, Hindi',
+      imageUrl: 'RATLD.jpg',
+      linkUrl: 'RATLD'
+    },
+    {
+      id: 4,
+      title: 'Wonder Woman 1984',
+      release: '30 November 2020',
+      genre: 'action',
+      trailer: 'XW2E2Fnh52w',
+      director: 'Anthony and Joe Russo',
+      writers: 'Christopher Markus and Stephen McFeely',
+      starring: 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin',
+      details: '3h 1min  |  Action, Adventure, Sci-Fi  |  3D  |  English, Hindi',
+      imageUrl: 'WW.jpg',
+      linkUrl: 'WW'
+    },
+    {
+      id: 5,
+      title: 'Secret Life of Pets 2',
+      release: '30 November 2020',
+      genre: 'animation',
+      trailer: 'mYocfuqu2A8',
+      director: 'Anthony and Joe Russo',
+      writers: 'Christopher Markus and Stephen McFeely',
+      starring: 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin',
+      details: '3h 1min  |  Action, Adventure, Sci-Fi  |  3D  |  English, Hindi',
+      imageUrl: 'Pets.jpg',
+      linkUrl: 'pets'
+    },
+    {
+      id: 6,
+      title: 'Abominable',
+      release: '30 November 2020',
+      genre: 'animation',
+      trailer: 'XrgVtuDRBjM',
+      director: 'Anthony and Joe Russo',
+      writers: 'Christopher Markus and Stephen McFeely',
+      starring: 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin',
+      details: '3h 1min  |  Action, Adventure, Sci-Fi  |  3D  |  English, Hindi',
+      imageUrl: 'Abo.png',
+      linkUrl: 'abominable'
+    },
+    {
+      id: 7,
+      title: 'Glass',
+      release: '30 November 2020',
+      genre: 'action',
+      trailer: '95ghQs5AmNk',
+      director: 'Anthony and Joe Russo',
+      writers: 'Christopher Markus and Stephen McFeely',
+      starring: 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin',
+      details: '3h 1min  |  Action, Adventure, Sci-Fi  |  3D  |  English, Hindi',
+      imageUrl: 'glass.png',
+      linkUrl: 'glass'
+    },
+    {
+      id: 8,
+      title: 'IO',
+      release: '30 November 2020',
+      genre: 'adventure',
+      trailer: 'y3GLhAumiec',
+      director: 'Anthony and Joe Russo',
+      writers: 'Christopher Markus and Stephen McFeely',
+      starring: 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin',
+      details: '3h 1min  |  Action, Adventure, Sci-Fi  |  3D  |  English, Hindi',
+      imageUrl: 'io.png',
+      linkUrl: 'io'
+    },
+    {
+      id: 9,
+      title: 'Lion King',
+      release: '30 November 2020',
+      genre: 'animation',
+      trailer: '7TavVZMewpY',
+      director: 'Anthony and Joe Russo',
+      writers: 'Christopher Markus and Stephen McFeely',
+      starring: 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin',
+      details: '3h 1min  |  Action, Adventure, Sci-Fi  |  3D  |  English, Hindi',
+      imageUrl: 'LK.png',
+      linkUrl: 'LK'
+    },
+    {
+      id: 10,
+      title: 'Secret Obsession',
+      release: '30 November 2020',
+      genre: 'thriller',
+      trailer: 'Nc6loZU3kjQ',
+      director: 'Anthony and Joe Russo',
+      writers: 'Christopher Markus and Stephen McFeely',
+      starring: 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin',
+      details: '3h 1min  |  Action, Adventure, Sci-Fi  |  3D  |  English, Hindi',
+      imageUrl: 'SO.png',
+      linkUrl: 'SO'
+    }
+  ];
+  
+  export default UPCOMINGMOVIE_DATA;
+  

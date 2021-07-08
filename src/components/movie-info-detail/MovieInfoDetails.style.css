@@ -1,0 +1,18 @@
+.movie-info-detail{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 90%;
+    float: left;
+}
+.movie-info-left{
+    width: 30%;
+    font-weight: 700;
+}
+.movie-info-right{
+    width: 70%;
+}
+.movie-about{
+    padding-top: 10px;
+    width: 80%;
+}

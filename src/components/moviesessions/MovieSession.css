@@ -1,0 +1,158 @@
+.booking{
+    /* padding: 100px; */
+}
+.booking-upper{
+    width: 100%;
+    /* height: 70vh; */
+    padding:100px 100px 0px 100px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.booking-lower{
+    /* height: 30vh; */
+    width: 100%;
+    float: left;
+    padding:30px 100px 30px 100px;
+}
+.current-week {
+    width: 100%;
+    background-color: #242424;
+    float: left;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-content: center;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 15px;
+}
+.movie-info{
+    width: 23%;
+    float: left;
+    padding: 20px;
+    background-color: #242424;
+    margin-top: 40px;
+}
+.movie-info h4{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #484848;
+    font-family: 'oswald';
+}
+.showtimes{
+    width: 77%;
+    float: left;
+    padding: 0 100px;
+}
+.nav-tabs{
+    border-bottom: 0 !important;
+}
+.booking-time{
+    background-color: transparent !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'oswald';
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border-color: transparent transparent !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: transparent transparent #c5292aff !important;
+}
+.type-time-slots{
+    list-style-type: none;
+    display: inline;    
+}
+.type-time-slots li {
+    padding: 5px 15px;
+    float: left;
+    background-color: #333;
+    margin-right: 15px;
+    border-radius: 3px;
+    width: 105px;
+    margin-bottom: 15px;
+}
+.type-time-slots li a{
+    text-decoration: none;
+}
+.tab-content{
+    padding: 30px 0;
+}
+.booking-time {
+    padding: 0 !important;
+    margin-right: 10px;
+}
+.text-default{
+    color: rgb(150, 149, 149);
+}
+.text-default:hover{
+    color: rgb(150, 149, 149);
+}
+.display-week{
+    width: 100%;
+    margin-left: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-week{
+    color: rgba(194, 194, 194, 0.904) !important;
+    font-weight: 600 !important;
+    margin-top: 2px;
+}
+.btn-week:focus, .btn-week:focus-visible{
+    background-color: #c5292a !important;
+    color: #fff !important;
+    border: none !important; 
+    box-shadow: none !important;
+    border: none !important;
+}
+.btn-week.active{
+    background-color: #c5292a !important;
+    color: #fff !important;
+    border: none !important; 
+    box-shadow: none !important;
+    border: none !important;
+}
+.filling-data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 65%;
+    padding: 10px;
+}
+.filling-data p{
+    /* width: 50%; */
+    font-weight: 500;
+}
+.filling-details{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.filling-details p{
+    width: 50%;
+}
+.filling-details p:first-of-type{
+    color: #2cb10a;
+}
+.filling-details p:nth-of-type(2){
+    color: #ff972a;
+}
+.filling-details p:nth-of-type(3){
+    color: #ff4242;
+}
+.filling-details p:nth-of-type(4){
+    color: rgb(150, 149, 149);
+}
+.btn-week:active{
+    background:Yellow;
+}

@@ -1,0 +1,40 @@
+.factors{
+    padding: 60px 100px;
+}
+.factors h3{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -1.4px;
+    padding-bottom: 2px;
+}
+.factors-preview-collection{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+@media (max-width: 1200px){
+    .factors{
+        padding: 60px 100px 30px 100px;
+    }
+    .factors-preview-collection{
+        padding: 0;
+    }
+}
+@media (max-width: 768px){
+    .factors{
+        padding: 60px;
+    }
+}
+@media (max-width: 420px){
+    .factors{
+        padding: 30px;
+    }
+    .factors-preview{
+        width: 100%;
+    }
+}

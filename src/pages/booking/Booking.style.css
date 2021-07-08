@@ -1,0 +1,68 @@
+.booking{
+    /* padding: 100px; */
+}
+.booking-upper{
+    width: 100%;
+    /* height: 70vh; */
+    padding:100px 100px 0px 100px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.booking-lower{
+    /* height: 30vh; */
+    width: 100%;
+    float: left;
+    padding:30px 100px 30px 100px;
+}
+.current-week {
+    width: 100%;
+    background-color: #242424;
+    float: left;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-content: center;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 40px;
+}
+.movie-info{
+    width: 23%;
+    float: left;
+    padding: 20px;
+    background-color: #242424;
+    margin-top: 40px;
+}
+.movie-info h4{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #484848;
+    font-family: 'oswald';
+}
+.showtimes{
+    width: 77%;
+    float: left;
+    padding: 0 100px;
+}
+.nav-tabs{
+    border-bottom: 0 !important;
+}
+.booking-time{
+    background-color: transparent !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'oswald';
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border-color: transparent transparent !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: transparent transparent #c5292aff !important;
+}

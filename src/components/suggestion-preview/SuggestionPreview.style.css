@@ -1,0 +1,56 @@
+
+.suggestion-box{
+    width: 50%;
+}
+.suggestion-img{
+    width: 140px;
+    height: 90px;
+    position: relative;
+}
+.suggestion-img svg{
+    position: absolute;
+    left: 45%;
+    top: 45%;
+}
+
+.suggestion-img img{
+    width: 100%; 
+    height: inherit;
+    object-fit: cover;
+    object-position: 0 -40px; 
+    display: block;
+    opacity: 0.8;
+}
+
+.suggestion-preview{
+    display: flex;
+    background-color: #333;
+    padding: 6px;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background-color 200ms ease-in;
+}
+.suggestion-preview:hover{
+    background-color: rgb(39, 39, 39);
+}
+
+.suggestion-detail{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.suggestion-detail h4{
+    font-size: 90%;
+    font-weight: 700;
+}
+.suggestion-detail p{
+    font-size: 70%;
+}
+@media (max-width: 1200px){
+    .suggestion-img{
+        width: 100px;
+    }
+}
